@@ -1,0 +1,112 @@
+[
+    {
+        "title": "Medicine Specialist",
+        "image": "https://www.khidmahhospital.com/public/image/departmentImage/1556174809.png",
+        "doctor1": "Dr. John Kabir",
+        "doctor1detail": "Professor - Dhaka Medical College & Hospital",
+        "doctor2": "Dr. John Fakir",
+        "doctor2detail": "Professor-Dhaka Medical College & Hospital",
+        "doctor3": "Dr. Johny Sins",
+        "doctor3detail": "Professor-Dhaka Medical College & Hospital"
+    },
+    {
+        "title": "Surgery",
+        "image": "https://www.khidmahhospital.com/public/image/departmentImage/1556174823.jpg",
+        "doctor1": "Dr. John Kabir",
+        "doctor1detail": "Professor - Dhaka Medical College & Hospital",
+        "doctor2": "Dr. John Fakir",
+        "doctor2detail": "Professor-Dhaka Medical College & Hospital",
+        "doctor3": "Dr. Johny Sins",
+        "doctor3detail": "Professor-Dhaka Medical College & Hospital"
+    },
+    {
+        "title": "PSYCHIATRY",
+        "image": "https://www.khidmahhospital.com/public/image/departmentImage/1556174849.png",
+        "doctor1": "Dr. John Kabir",
+        "doctor1detail": "Professor - Dhaka Medical College & Hospital",
+        "doctor2": "Dr. John Fakir",
+        "doctor2detail": "Professor-Dhaka Medical College & Hospital",
+        "doctor3": "Dr. Johny Sins",
+        "doctor3detail": "Professor-Dhaka Medical College & Hospital"
+    },
+    {
+        "title": "RADIOLOGY & IMAGING",
+        "image": "https://www.khidmahhospital.com/public/image/departmentImage/1556174874.png",
+        "doctor1": "Dr. John Kabir",
+        "doctor1detail": "Professor - Dhaka Medical College & Hospital",
+        "doctor2": "Dr. John Fakir",
+        "doctor2detail": "Professor-Dhaka Medical College & Hospital",
+        "doctor3": "Dr. Johny Sins",
+        "doctor3detail": "Professor-Dhaka Medical College & Hospital"
+    },
+    {
+        "title": "SONOLOGIST",
+        "image": "https://www.khidmahhospital.com/public/image/departmentImage/1556174897.png",
+        "doctor1": "Dr. John Kabir",
+        "doctor1detail": "Professor - Dhaka Medical College & Hospital",
+        "doctor2": "Dr. John Fakir",
+        "doctor2detail": "Professor-Dhaka Medical College & Hospital",
+        "doctor3": "Dr. Johny Sins",
+        "doctor3detail": "Professor-Dhaka Medical College & Hospital"
+    },
+    {
+        "title": "HEMATOLOGY",
+        "image": "https://www.khidmahhospital.com/public/image/departmentImage/1556174918.jpg",
+        "doctor1": "Dr. John Kabir",
+        "doctor1detail": "Professor - Dhaka Medical College & Hospital",
+        "doctor2": "Dr. John Fakir",
+        "doctor2detail": "Professor-Dhaka Medical College & Hospital",
+        "doctor3": "Dr. Johny Sins",
+        "doctor3detail": "Professor-Dhaka Medical College & Hospital"
+    },
+    {
+        "title": "ANESTHESIOLOGIST",
+        "image": "https://www.khidmahhospital.com/public/image/departmentImage/1556174936.jpg",
+        "doctor1": "Dr. John Kabir",
+        "doctor1detail": "Professor - Dhaka Medical College & Hospital",
+        "doctor2": "Dr. John Fakir",
+        "doctor2detail": "Professor-Dhaka Medical College & Hospital",
+        "doctor3": "Dr. Johny Sins",
+        "doctor3detail": "Professor-Dhaka Medical College & Hospital"
+    },
+    {
+        "title": "NEUROLOGY",
+        "image": "https://www.khidmahhospital.com/public/image/departmentImage/1556174956.jpg",
+        "doctor1": "Dr. John Kabir",
+        "doctor1detail": "Professor - Dhaka Medical College & Hospital",
+        "doctor2": "Dr. John Fakir",
+        "doctor2detail": "Professor-Dhaka Medical College & Hospital",
+        "doctor3": "Dr. Johny Sins",
+        "doctor3detail": "Professor-Dhaka Medical College & Hospital"
+    },
+    {
+        "title": "ENDOCRINOLOGY",
+        "image": "https://www.khidmahhospital.com/public/image/departmentImage/1556174983.png",
+        "doctor1": "Dr. John Kabir",
+        "doctor1detail": "Professor - Dhaka Medical College & Hospital",
+        "doctor2": "Dr. John Fakir",
+        "doctor2detail": "Professor-Dhaka Medical College & Hospital",
+        "doctor3": "Dr. Johny Sins",
+        "doctor3detail": "Professor-Dhaka Medical College & Hospital"
+    },
+    {
+        "title": "NEPHROLOGY",
+        "image": "https://www.khidmahhospital.com/public/image/departmentImage/1556175007.png",
+        "doctor1": "Dr. John Kabir",
+        "doctor1detail": "Professor - Dhaka Medical College & Hospital",
+        "doctor2": "Dr. John Fakir",
+        "doctor2detail": "Professor-Dhaka Medical College & Hospital",
+        "doctor3": "Dr. Johny Sins",
+        "doctor3detail": "Professor-Dhaka Medical College & Hospital"
+    },
+    {
+        "title": "DIABETOLOGIST",
+        "image": "https://www.khidmahhospital.com/public/image/departmentImage/1556175032.png",
+        "doctor1": "Dr. John Kabir",
+        "doctor1detail": "Professor - Dhaka Medical College & Hospital",
+        "doctor2": "Dr. John Fakir",
+        "doctor2detail": "Professor-Dhaka Medical College & Hospital",
+        "doctor3": "Dr. Johny Sins",
+        "doctor3detail": "Professor-Dhaka Medical College & Hospital"
+    }
+]
