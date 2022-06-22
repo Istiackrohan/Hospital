@@ -3,11 +3,11 @@ import DepartmentData from '../../Components/fakeData/DepartmentData.json';
 
 const DepartmentDetails = () => {
     return (
-        <div>
+        <div className="mx-auto container flex flex-wrap">
             {
                 DepartmentData.map((item, index) => {
                     return (
-                        <div className="lg:basis-1/5 md:basis-1/3 sm:basis-1 mb-5 px-5" key={index}>
+                        <div className="lg:basis-1/3 md:basis-1/2 sm:basis-1 mb-5 px-5" key={index}>
                             <div className="flex justify-center">
                                 <div className="rounded-lg shadow-lg bg-white max-w-sm">
                                     <a href="#" data-mdb-ripple="true" data-mdb-ripple-color="light">
