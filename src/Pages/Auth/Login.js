@@ -76,11 +76,11 @@ const Login = () => {
               <div className="flex flex-col my-2 text-gray-500">
                 <h1 className="mx-auto mb-2">Or continue with</h1>
                 <div className="flex justify-center">
+                  <button className="py-2 px-8 border rounded-lg border-slate-500 mx-2"><BsIcons.BsGoogle />
+                  </button>
                   <button className="py-2 px-8 border rounded-lg border-slate-500 mx-2"><BsIcons.BsFacebook />
                   </button>
-                  <button className="py-2 px-8 border rounded-lg border-slate-500 mx-2"><FaIcons.FaTwitter />
-                  </button>
-                  <button className="py-2 px-8 border rounded-lg border-slate-500 mx-2"><FaIcons.FaYoutube />
+                  <button className="py-2 px-8 border rounded-lg border-slate-500 mx-2"><FaIcons.FaGithub />
                   </button>
                 </div>
               </div>
