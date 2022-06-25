@@ -4,6 +4,9 @@ import DepartmentData from '../../Components/fakeData/DepartmentData.json';
 const DepartmentDetails = () => {
     return (
         <div className="mx-auto container flex flex-wrap">
+            <div className="">
+                
+            </div>
             {
                 DepartmentData.map((item, index) => {
                     return (
