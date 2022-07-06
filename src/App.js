@@ -7,6 +7,7 @@ import Login from './Pages/Auth/Login';
 import ServiceDetails from './Pages/Service/ServiceDetails';
 import DepartmentDetails from './Pages/Department/DepartmentDetails';
 import Error from './Pages/Error/Error';
+import CreateAccount from './Pages/Auth/CreateAccount';
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
         <Route path="/" element={<Home/>}/>
         <Route path="/home" element={<Home/>}/>
         <Route path="/login" element={<Login/>}/>
-        <Route path="/service:id" element={<ServiceDetails/>}/>
-        <Route path="/department:id" element={<DepartmentDetails/>}/>
+        <Route path="/signup" element={<CreateAccount/>}/>
+        <Route path="/service/:serviceid" element={<ServiceDetails/>}/>
+        <Route path="/department/:id" element={<DepartmentDetails/>}/>
         <Route path="*" element={<Error/>}/>
       </Routes>
       <Footer />

@@ -7,12 +7,11 @@ import ServiceDetails from '../Service/ServiceDetails';
 
 const Home = () => {
     return (
-        <div>
+        <div id="home">
             <Banner/>
             <Services/>
             <Department/>
             <About/>
-            <ServiceDetails/>
         </div>
     );
 };

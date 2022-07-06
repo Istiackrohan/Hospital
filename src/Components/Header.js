@@ -3,6 +3,7 @@ import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 import NavData from './fakeData/NavData.json';
+import { Link } from 'react-router-dom';
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -28,16 +29,18 @@ export default function Example() {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
-                  <img
-                    className="block lg:hidden h-8 w-auto"
-                    src="https://i.ibb.co/5YppHvF/Hospital-Logo.png"
-                    alt="Hospital"
-                  />
-                  <img
-                    className="hidden lg:block h-8 w-auto"
-                    src="https://i.ibb.co/5YppHvF/Hospital-Logo.png"
-                    alt="Workflow"
-                  />
+                  <Link to="/home">
+                    <img
+                      className="block lg:hidden h-8 w-auto"
+                      src="https://i.ibb.co/5YppHvF/Hospital-Logo.png"
+                      alt="Hospital"
+                    />
+                    <img
+                      className="hidden lg:block h-8 w-auto"
+                      src="https://i.ibb.co/5YppHvF/Hospital-Logo.png"
+                      alt="Workflow"
+                    />
+                  </Link>
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
