@@ -20,7 +20,7 @@
         "doctors": 
         [{"doctorName":"John Kabir", "fees":"500tk","time": "10:00 AM to 6:00 PM", "experience":"PHD from London."},
         {"doctorName":"John Fakir", "fees":"500tk","time": "11:00 AM to 7:00 PM", "experience":"PHD from London."},
-        {"doctorName":"John Takir", "fees":"500tk","time": "11:00 AM to 7:00 PM", "experience":"PHD from London."},
+        {"doctorName":"John Takir", "fees":"500tk","time": "6:00 PM to 2:00 AM", "experience":"PHD from London."},
         {"doctorName":"John Nadir", "fees":"500tk","time": "6:00 PM to 2:00 AM", "experience":"PHD from London."}]
     },
     {
@@ -32,7 +32,7 @@
         "doctors": 
         [{"doctorName":"John Kabir", "fees":"500tk","time": "10:00 AM to 6:00 PM", "experience":"PHD from London."},
         {"doctorName":"John Fakir", "fees":"500tk","time": "11:00 AM to 7:00 PM", "experience":"PHD from London."},
-        {"doctorName":"John Takir", "fees":"500tk","time": "11:00 AM to 7:00 PM", "experience":"PHD from London."},
+        {"doctorName":"John Takir", "fees":"500tk","time": "6:00 PM to 2:00 AM", "experience":"PHD from London."},
         {"doctorName":"John Nadir", "fees":"500tk","time": "6:00 PM to 2:00 AM", "experience":"PHD from London."}]
     },
     {
@@ -44,7 +44,7 @@
         "doctors": 
         [{"doctorName":"John Kabir", "fees":"500tk","time": "10:00 AM to 6:00 PM", "experience":"PHD from London."},
         {"doctorName":"John Fakir", "fees":"500tk","time": "11:00 AM to 7:00 PM", "experience":"PHD from London."},
-        {"doctorName":"John Takir", "fees":"500tk","time": "11:00 AM to 7:00 PM", "experience":"PHD from London."},
+        {"doctorName":"John Takir", "fees":"500tk","time": "6:00 PM to 2:00 AM", "experience":"PHD from London."},
         {"doctorName":"John Nadir", "fees":"500tk","time": "6:00 PM to 2:00 AM", "experience":"PHD from London."}]
     }
 ]

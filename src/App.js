@@ -8,21 +8,29 @@ import ServiceDetails from './Pages/Service/ServiceDetails';
 import DepartmentDetails from './Pages/Department/DepartmentDetails';
 import Error from './Pages/Error/Error';
 import CreateAccount from './Pages/Auth/CreateAccount';
+import Booking from './Pages/Booking/Booking';
+import AuthProvider from './Context/AuthProvider';
+import DoctorsData from './Context/DoctorsData';
 
 function App() {
   return (
     <div className="App">
-      <Header /> 
-      <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/home" element={<Home/>}/>
-        <Route path="/login" element={<Login/>}/>
-        <Route path="/signup" element={<CreateAccount/>}/>
-        <Route path="/service/:serviceid" element={<ServiceDetails/>}/>
-        <Route path="/department/:id" element={<DepartmentDetails/>}/>
-        <Route path="*" element={<Error/>}/>
-      </Routes>
-      <Footer />
+      <AuthProvider>
+        <DoctorsData>
+          <Header />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/signup" element={<CreateAccount />} />
+            <Route path="/service/:serviceid" element={<ServiceDetails />} />
+            <Route path="/service/:serviceid/:bookingid" element={<Booking />} />
+            <Route path="/department/:id" element={<DepartmentDetails />} />
+            <Route path="*" element={<Error />} />
+          </Routes>
+          <Footer />
+        </DoctorsData>
+      </AuthProvider>
     </div>
   );
 }

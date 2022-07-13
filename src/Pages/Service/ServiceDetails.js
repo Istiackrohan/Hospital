@@ -1,20 +1,13 @@
 import React from 'react';
-import { useState } from 'react';
-import { useParams } from 'react-router-dom';
-import ServiceData from '../../Components/fakeData/ServiceData.json'
+import { Link, useParams } from 'react-router-dom';
+import ServiceData from '../../Components/fakeData/ServiceData.json';
 
 const ServiceDetails = () => {
-    const {serviceid} = useParams();
-    const service = ServiceData.find(service =>{
+    const { serviceid } = useParams();
+    const service = ServiceData.find(service => {
         return service.id === serviceid;
     });
-
-    const [request, setRequest] = useState("Request booking");
-
-    const bookingServices = () => {
-        alert("Your request has been sent to our hospital. Please wait until our officer calls you.");
-        setRequest("Booking request sent")
-    }
+    const { doctors } = service;
 
     return (
         <div className="flex justify-center">
@@ -25,11 +18,11 @@ const ServiceDetails = () => {
                 </div>
                 <div className="flex flex-wrap">
                     {
-                        ServiceData.map((item, index) => {
-                            const [{ doctors }] = ServiceData
-                            const { doctorName, time, experience, fees } = doctors[index];
+                        doctors.map((doctor, i)=>{
+                            const { doctorName, fees, time, experience } = doctor;
+                            console.log( doctorName, fees, time, experience );
                             return (
-                                <div className="lg:basis-1/3 md:basis-1/2 sm:basis-1 mb-5 px-5 flex justify-center" key={index}>
+                                <div className="lg:basis-1/3 md:basis-1/2 sm:basis-1 mb-5 px-5 flex justify-center" key={i}>
                                     <div className="">
                                         <div className="rounded-lg shadow-lg bg-white max-w-sm">
                                             <div className="p-6">
@@ -37,9 +30,10 @@ const ServiceDetails = () => {
                                                 <p className="text-gray-700 text-base mb-4">{experience}</p>
                                                 <p className="text-gray-700 text-base mb-4">{time}</p>
                                                 <p className="text-gray-700 text-base mb-4">{fees}</p>
-
-                                                <button onClick={()=>bookingServices()} 
-                                                type="button" className=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">{request}</button>
+                            
+                                                <Link to={`/service/:serviceid/${doctor.doctorName}`}>
+                                                    <button type="button" className=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Request booking</button>
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>
@@ -50,7 +44,9 @@ const ServiceDetails = () => {
                 </div>
             </div>
         </div>
-    );
+    ), doctors;
 };
 
 export default ServiceDetails;
+
+
