@@ -1,15 +1,15 @@
 import React, { createContext } from 'react';
-import ServiceDetails from '../Pages/Service/ServiceDetails';
+import SpecificService from '../Hooks/SpecificService';
 
 export const DoctorsContext = createContext();
 
-const DoctorsData = ({children}) => {
-    const {doctors} = ServiceDetails();
+const DoctorsDataProvider = ({ children }) => {
+    const allContext = SpecificService();
     return (
-        <DoctorsContext.Provider value = {doctors}>
+        <DoctorsContext.Provider value={allContext}>
             {children}
         </DoctorsContext.Provider>
     );
 };
 
-export default DoctorsData;
+export default DoctorsDataProvider;

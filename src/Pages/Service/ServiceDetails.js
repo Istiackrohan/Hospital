@@ -1,6 +1,8 @@
 import React from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import ServiceData from '../../Components/fakeData/ServiceData.json';
+// import { useDoctorsData } from '../../Hooks/useDoctorsData';
 
 const ServiceDetails = () => {
     const { serviceid } = useParams();
@@ -8,6 +10,10 @@ const ServiceDetails = () => {
         return service.id === serviceid;
     });
     const { doctors } = service;
+    console.log("Service details console", serviceid)
+
+    // const { service } = useDoctorsData();
+    // const { doctors } = service;
 
     return (
         <div className="flex justify-center">
@@ -20,7 +26,6 @@ const ServiceDetails = () => {
                     {
                         doctors.map((doctor, i)=>{
                             const { doctorName, fees, time, experience } = doctor;
-                            console.log( doctorName, fees, time, experience );
                             return (
                                 <div className="lg:basis-1/3 md:basis-1/2 sm:basis-1 mb-5 px-5 flex justify-center" key={i}>
                                     <div className="">
@@ -44,7 +49,7 @@ const ServiceDetails = () => {
                 </div>
             </div>
         </div>
-    ), doctors;
+    );
 };
 
 export default ServiceDetails;
