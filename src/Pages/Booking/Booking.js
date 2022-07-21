@@ -1,22 +1,25 @@
 import React from 'react';
 import { useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Navigate } from 'react-router-dom';
 import ServiceData from '../../Components/fakeData/ServiceData.json'
+import useAuth from '../../Hooks/useAuth';
 
 const Booking = () => {
-    const {bookingid} = useParams();
-    const {doctors} = useDoctorsData()
-    const [request, setRequest] = useState("Request booking");
-    const doctor = ServiceData.find(doctor => {
-        return doctor.doctorName === bookingid;
+    const { serviceid, bookingid } = useParams();
+    const service = ServiceData.find(service => {
+        return service.id === serviceid;
     });
-    console.log(doctors);
+    const { doctors } = service;
+    const { } = doctors;
+    const { user } = useAuth();
 
-    return (
-        <div>
-            <h1>This is booking {bookingid}</h1>
-        </div>
-    );
+    return (<>
+        {!user ? <Navigate to="/login" /> : 
+         <div>
+            <h1>This is {bookingid}</h1>
+         </div>
+         }
+    </>);
 };
 
 export default Booking;
