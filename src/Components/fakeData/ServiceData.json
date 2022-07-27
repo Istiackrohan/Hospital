@@ -6,10 +6,10 @@
         "path": "/dental-care",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "doctors": 
-        [{"doctorName":"John Kabir", "fees":"500tk","time": "10:00 AM to 6:00 PM", "experience":"PHD from London.", "image":"https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2021/08/10/photo_noor_a_alam_1.jpg?itok=JWTB_093"},
-        {"doctorName":"John Fakir", "fees":"500tk","time": "11:00 AM to 7:00 PM", "experience":"PHD from London.", "image":"https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2021/08/10/photo_noor_a_alam_1.jpg?itok=JWTB_093"},
-        {"doctorName":"John Takir", "fees":"500tk","time": "6:00 PM to 2:00 AM", "experience":"PHD from London.", "image":"https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2021/08/10/photo_noor_a_alam_1.jpg?itok=JWTB_093"},
-        {"doctorName":"John Nadir", "fees":"500tk","time": "6:00 PM to 2:00 AM", "experience":"PHD from London.", "image":"https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2021/08/10/photo_noor_a_alam_1.jpg?itok=JWTB_093"}]
+        [{"doctorName":"John Kabir", "fees":"500tk","time": "10:00 AM to 6:00 PM", "experience":"PHD from London.", "img":"https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2021/08/10/photo_noor_a_alam_1.jpg?itok=JWTB_093"},
+        {"doctorName":"John Fakir", "fees":"500tk","time": "11:00 AM to 7:00 PM", "experience":"PHD from London.", "img":"https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2021/08/10/photo_noor_a_alam_1.jpg?itok=JWTB_093"},
+        {"doctorName":"John Takir", "fees":"500tk","time": "6:00 PM to 2:00 AM", "experience":"PHD from London.", "img":"https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2021/08/10/photo_noor_a_alam_1.jpg?itok=JWTB_093"},
+        {"doctorName":"John Nadir", "fees":"500tk","time": "6:00 PM to 2:00 AM", "experience":"PHD from London.", "img":"https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2021/08/10/photo_noor_a_alam_1.jpg?itok=JWTB_093"}]
     },
     {
         "id": "1",
@@ -18,10 +18,10 @@
         "path": "/eye-hospital",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "doctors": 
-        [{"doctorName":"John Kabir", "fees":"500tk","time": "10:00 AM to 6:00 PM", "experience":"PHD from London.", "image":"https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2021/08/10/photo_noor_a_alam_1.jpg?itok=JWTB_093"},
-        {"doctorName":"John Fakir", "fees":"500tk","time": "11:00 AM to 7:00 PM", "experience":"PHD from London.", "image":"https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2021/08/10/photo_noor_a_alam_1.jpg?itok=JWTB_093"},
-        {"doctorName":"John Takir", "fees":"500tk","time": "6:00 PM to 2:00 AM", "experience":"PHD from London.", "image":"https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2021/08/10/photo_noor_a_alam_1.jpg?itok=JWTB_093"},
-        {"doctorName":"John Nadir", "fees":"500tk","time": "6:00 PM to 2:00 AM", "experience":"PHD from London.", "image":"https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2021/08/10/photo_noor_a_alam_1.jpg?itok=JWTB_093"}]
+        [{"doctorName":"John Kabir", "fees":"500tk","time": "10:00 AM to 6:00 PM", "experience":"PHD from London.", "img":"https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2021/08/10/photo_noor_a_alam_1.jpg?itok=JWTB_093"},
+        {"doctorName":"John Fakir", "fees":"500tk","time": "11:00 AM to 7:00 PM", "experience":"PHD from London.", "img":"https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2021/08/10/photo_noor_a_alam_1.jpg?itok=JWTB_093"},
+        {"doctorName":"John Takir", "fees":"500tk","time": "6:00 PM to 2:00 AM", "experience":"PHD from London.", "img":"https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2021/08/10/photo_noor_a_alam_1.jpg?itok=JWTB_093"},
+        {"doctorName":"John Nadir", "fees":"500tk","time": "6:00 PM to 2:00 AM", "experience":"PHD from London.", "img":"https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2021/08/10/photo_noor_a_alam_1.jpg?itok=JWTB_093"}]
     },
     {
         "id": "2",
@@ -30,10 +30,10 @@
         "path": "/nicu",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "doctors": 
-        [{"doctorName":"John Kabir", "fees":"500tk","time": "10:00 AM to 6:00 PM", "experience":"PHD from London.", "image":"https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2021/08/10/photo_noor_a_alam_1.jpg?itok=JWTB_093"},
-        {"doctorName":"John Fakir", "fees":"500tk","time": "11:00 AM to 7:00 PM", "experience":"PHD from London.", "image":"https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2021/08/10/photo_noor_a_alam_1.jpg?itok=JWTB_093"},
-        {"doctorName":"John Takir", "fees":"500tk","time": "6:00 PM to 2:00 AM", "experience":"PHD from London.", "image":"https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2021/08/10/photo_noor_a_alam_1.jpg?itok=JWTB_093"},
-        {"doctorName":"John Nadir", "fees":"500tk","time": "6:00 PM to 2:00 AM", "experience":"PHD from London.", "image":"https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2021/08/10/photo_noor_a_alam_1.jpg?itok=JWTB_093"}]
+        [{"doctorName":"John Kabir", "fees":"500tk","time": "10:00 AM to 6:00 PM", "experience":"PHD from London.", "img":"https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2021/08/10/photo_noor_a_alam_1.jpg?itok=JWTB_093"},
+        {"doctorName":"John Fakir", "fees":"500tk","time": "11:00 AM to 7:00 PM", "experience":"PHD from London.", "img":"https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2021/08/10/photo_noor_a_alam_1.jpg?itok=JWTB_093"},
+        {"doctorName":"John Takir", "fees":"500tk","time": "6:00 PM to 2:00 AM", "experience":"PHD from London.", "img":"https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2021/08/10/photo_noor_a_alam_1.jpg?itok=JWTB_093"},
+        {"doctorName":"John Nadir", "fees":"500tk","time": "6:00 PM to 2:00 AM", "experience":"PHD from London.", "img":"https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2021/08/10/photo_noor_a_alam_1.jpg?itok=JWTB_093"}]
     },
     {
         "id": "3",
@@ -42,9 +42,9 @@
         "path": "/physeotherapy",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "doctors": 
-        [{"doctorName":"John Kabir", "fees":"500tk","time": "10:00 AM to 6:00 PM", "experience":"PHD from London.", "image":"https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2021/08/10/photo_noor_a_alam_1.jpg?itok=JWTB_093"},
-        {"doctorName":"John Fakir", "fees":"500tk","time": "11:00 AM to 7:00 PM", "experience":"PHD from London.", "image":"https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2021/08/10/photo_noor_a_alam_1.jpg?itok=JWTB_093"},
-        {"doctorName":"John Takir", "fees":"500tk","time": "6:00 PM to 2:00 AM", "experience":"PHD from London.", "image":"https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2021/08/10/photo_noor_a_alam_1.jpg?itok=JWTB_093"},
-        {"doctorName":"John Nadir", "fees":"500tk","time": "6:00 PM to 2:00 AM", "experience":"PHD from London.", "image":"https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2021/08/10/photo_noor_a_alam_1.jpg?itok=JWTB_093"}]
+        [{"doctorName":"John Kabir", "fees":"500tk","time": "10:00 AM to 6:00 PM", "experience":"PHD from London.", "img":"https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2021/08/10/photo_noor_a_alam_1.jpg?itok=JWTB_093"},
+        {"doctorName":"John Fakir", "fees":"500tk","time": "11:00 AM to 7:00 PM", "experience":"PHD from London.", "img":"https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2021/08/10/photo_noor_a_alam_1.jpg?itok=JWTB_093"},
+        {"doctorName":"John Takir", "fees":"500tk","time": "6:00 PM to 2:00 AM", "experience":"PHD from London.", "img":"https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2021/08/10/photo_noor_a_alam_1.jpg?itok=JWTB_093"},
+        {"doctorName":"John Nadir", "fees":"500tk","time": "6:00 PM to 2:00 AM", "experience":"PHD from London.", "img":"https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2021/08/10/photo_noor_a_alam_1.jpg?itok=JWTB_093"}]
     }
 ]
