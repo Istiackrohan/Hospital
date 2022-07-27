@@ -18,7 +18,7 @@ const useFirebase = () => {
                 console.log(result.user)
                 const user = result.user
                 setUser(user);
-                navigate("/home");
+                navigate("/service/:serviceid/:bookingid");
             }).catch((error) => {
                 setError(error.message)
             })
@@ -34,7 +34,7 @@ const useFirebase = () => {
         signOut(auth)
             .then(() => {
                 setUser({});
-                navigate("/sign-in");
+                navigate("/login");
             })
     }
 

@@ -2,8 +2,11 @@ import React from 'react';
 import { LockClosedIcon } from '@heroicons/react/solid';
 import * as BsIcons from 'react-icons/bs';
 import * as FaIcons from 'react-icons/fa';
+import useAuth from '../../Hooks/useAuth';
 
 const Login = () => {
+  const {signInWithGoogle, error} = useAuth();
+
   return (
     <>
       <div className="min-h-full flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
@@ -74,13 +77,14 @@ const Login = () => {
               <div className="flex flex-col my-2 text-gray-500">
                 <h1 className="mx-auto mb-2">Or continue with</h1>
                 <div className="flex justify-center">
-                  <button className="py-2 px-8 border rounded-lg border-slate-500 mx-2"><BsIcons.BsGoogle />
+                  <button onClick={signInWithGoogle} className="py-2 px-8 border rounded-lg border-slate-500 mx-2"><BsIcons.BsGoogle />
                   </button>
                   <button className="py-2 px-8 border rounded-lg border-slate-500 mx-2"><BsIcons.BsFacebook />
                   </button>
                   <button className="py-2 px-8 border rounded-lg border-slate-500 mx-2"><FaIcons.FaGithub />
                   </button>
                 </div>
+                <p style={{ color: "red" }}>{error}</p>
               </div>
             </div>
           </form>
