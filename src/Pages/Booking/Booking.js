@@ -19,8 +19,8 @@ const Booking = () => {
     const [booking, setBooking] = useState("Request booking");
 
     const isRequestSent = () => {
-        setBooking(booking==="Request booking" ? "Cancel booking" : "Request booking");
-        alert(booking==="Request booking" ? "Congratulations! Your booking request has been sent to aur agent.": "Your booking request has been cancelled.");
+        setBooking(booking === "Request booking" ? "Cancel booking" : "Request booking");
+        alert(booking==="Request booking" ? "Congratulations! Your booking request has been sent to our agent.": "Your booking request has been cancelled.");
     }
 
     return (<>
