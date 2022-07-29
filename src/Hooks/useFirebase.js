@@ -13,7 +13,6 @@ const useFirebase = () => {
     const facebookProvider = new FacebookAuthProvider();
     const githubProvider = new GithubAuthProvider();
 
-
     const signInWithGoogle = () => {
         signInWithPopup(auth, googleProvider)
             .then((result) => {
@@ -70,6 +69,9 @@ const useFirebase = () => {
         signInWithGoogle,
         signInWithFacebook,
         signInWithGithub,
+        setUser,
+        navigate,
+        auth,
         logout
     }
 };

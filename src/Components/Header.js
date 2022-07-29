@@ -117,7 +117,7 @@ export default function Example() {
                                 <button
                                   className={classNames(active ? 'bg-gray-100' : '', 'px-4 py-2 w-full text-sm text-gray-700')}
                                 >
-                                  Sign out
+                                  Sign In
                                 </button>
                               </Link>
                             )}
