@@ -1,4 +1,5 @@
-import { createUserWithEmailAndPassword } from 'firebase/auth';
+import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import ClipLoader from "react-spinners/ClipLoader";
 import React, { useState } from 'react';
 import * as BsIcons from 'react-icons/bs';
 import * as FaIcons from 'react-icons/fa';
@@ -8,8 +9,9 @@ import useAuth from '../../Hooks/useAuth';
 const CreateAccount = () => {
   const { auth, setUser, navigate } = useAuth();
 
-  const [error, setError] = useState('');
+  const [ createUserWithEmailAndPassword, loading ] = useCreateUserWithEmailAndPassword(auth);
   const [name, setName] = useState('');
+  const [error, setError] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
@@ -47,6 +49,15 @@ const CreateAccount = () => {
     }
     console.log(name, email, password, confirmPassword);
     e.preventDefault();
+  }
+
+  if (loading){
+    const override={
+      display: "block",
+      margin: "0 auto",
+      borderColor: "red",
+    };
+    return <ClipLoader color={"red"} loading={loading} cssOverride={override} size={150} />
   }
 
   return (
