@@ -1,6 +1,6 @@
 [
-    { "name": "Services", "current": false, "href":"#services", "description":"Lorem ipsum dolor sit amet, consectetur adip" },
-    { "name": "Department", "current": false, "href":"#department", "description":"Lorem ipsum dolor sit amet, consectetur adip" },
-    { "name": "About Us", "current": false, "href":"#about", "description":"Lorem ipsum dolor sit amet, consectetur adip" },
-    { "name": "Contact", "current": false, "href":"#contact", "description":"Lorem ipsum dolor sit amet, consectetur adip" }
+    { "name": "Services", "current": false, "href":"home#services", "description":"Lorem ipsum dolor sit amet, consectetur adip" },
+    { "name": "Department", "current": false, "href":"home#department", "description":"Lorem ipsum dolor sit amet, consectetur adip" },
+    { "name": "About Us", "current": false, "href":"home#about", "description":"Lorem ipsum dolor sit amet, consectetur adip" },
+    { "name": "Contact", "current": false, "href":"home#contact", "description":"Lorem ipsum dolor sit amet, consectetur adip" }
 ]
